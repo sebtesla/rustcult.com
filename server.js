@@ -8,5 +8,5 @@ app.use(express.static('static', {
 }));
 
 app.listen(port, () => {
-  console.log(`Server listening at http://local.rustcult.com:${port}/`);
+  console.log(`Server listening at http://local.rustcult.com:${8080}/`);
 });
